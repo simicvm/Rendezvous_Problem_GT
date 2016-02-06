@@ -15,7 +15,7 @@ def global_function():
 
 def generte_map(grid_size):
 	"""
-	Function creates a grid of size number x number. Default size is 11x11.
+	Function creates a grid of size grid_size x grid_size. Default size is 11x11.
 	0 denotes free space, 1 denotes obstacle. They have to be added manualy.
 	"""
 	world_grid = {}
